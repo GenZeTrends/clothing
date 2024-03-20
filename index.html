@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GenZeTrends</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>GenZeTrends</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="center">
+            <h2>Welcome to GenZeTrends</h2>
+            <p>We offer a wide range of high-quality clothing for all occasions.</p>
+        </section>
+
+        <section id="products">
+            <h2>Our Products</h2>
+
+            <!-- Shirts -->
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSolWvtMw1d5WFb5vBXvk22jYT1Q-CLq0yWdPp2Nj5AufbpkomRrh0TjoeEivW5jJ5UDeQ&usqp=CAU">
+                <h3>Slim Fit Button-Up Shirt</h3>
+                <p>Description: Classic slim fit shirt with button-up closure.</p>
+                <p>Price: ₹1999.99</p>
+                <button onclick="buy('Slim Fit Button-Up Shirt', 1999.99)" class="buy-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="https://img.freepik.com/premium-photo/young-guy-checkered-shirt-isolated-grey-background-guy-casual-style_474717-130217.jpg" alt="Plaid Flannel Shirt">
+                <h3>Plaid Flannel Shirt</h3>
+                <p>Description: Cozy flannel shirt featuring a stylish plaid pattern.</p>
+                <p>Price: ₹2299.99</p>
+                <button onclick="buy('Plaid Flannel Shirt', 2299.99)" class="buy-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="https://img.freepik.com/free-photo/young-handsome-businessman-posing-indoor_144627-28063.jpg" alt="Oxford Dress Shirt">
+                <h3>Oxford Dress Shirt</h3>
+                <p>Description: Timeless Oxford dress shirt suitable for formal occasions.</p>
+                <p>Price: ₹2499.99</p>
+                <button onclick="buy('Oxford Dress Shirt', 2499.99)" class="buy-button">Buy Now</button>
+            </div>
+            <!-- More products can be added similarly -->
+
+            <!-- T-shirts -->
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMM2McjDfz1GVORVR9nnTb8DBiCXT6WnRkEQ&usqp=CAU" alt="Graphic Print T-shirt">
+                <h3>Graphic Print T-shirt</h3>
+                <p>Description: Cotton T-shirt featuring a bold graphic print.</p>
+                <p>Price: ₹999.99</p>
+                <button onclick="buy('Graphic Print T-shirt', 999.99)" class="buy-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP8z2z4CD1qzy1FiSFtvBEM_eMKyz_LzUwq_ncTGR0bN7W2i0otn3kcU-g1_11mr1EICc&usqp=CAU" alt="V-Neck Basic Tee">
+                <h3>Basic Tee</h3>
+                <p>Description: Essential tee made from soft cotton.</p>
+                <p>Price: ₹799.99</p>
+                <button onclick="buy('V-Neck Basic Tee', 799.99)" class="buy-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF-IdfaOYuJ2dkbCPdoqDfwMWhpWwX9gjZQz0a9PTSvPAwaYx-OWuI2PzHiLdDqWACEEg&usqp=CAU" alt="Striped Pocket Tee">
+                <h3>Striped Tee</h3>
+                <p>Description: Casual striped tee with a chest pocket detail.</p>
+                <p>Price: ₹899.99</p>
+                <button onclick="buy('Striped Pocket Tee', 899.99)" class="buy-button">Buy Now</button>
+            </div>
+            <!-- More T-shirt products can be added similarly -->
+
+            <!-- Jeans -->
+            <div class="product">
+                <img src="https://images.bewakoof.com/utter/content/4734/content_LOOSE_FIT_JEANS_-_Different_Types_of_Jeans_-__Bewakoof_Blog.png" alt="Slim Fit Dark Wash Jeans">
+                <h3>Fit comfy Jeans</h3>
+                <p>Description: Slim fit jeans in a classic dark wash.</p>
+                <p>Price: ₹2999.99</p>
+                <button onclick="buy('Slim Fit Dark Wash Jeans', 2999.99)" class="buy-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="https://images.bewakoof.com/utter/content/4741/content_SLIM_FIT_JEANS_-_Different_Types_of_Jeans_-_Bewakoof_Blog.png" alt="Distressed Skinny Jeans">
+                <h3>Distressed Skinny Jeans</h3>
+                <p>Description: Trendy distressed skinny jeans with ripped details.</p>
+                <p>Price: ₹3299.99</p>
+                <button onclick="buy('Distressed Skinny Jeans', 3299.99)" class="buy-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="https://images.bewakoof.com/utter/content/4738/content_REGULAR_FIT_JEANS_-_Different_Types_of_Jeans_-_Bewakoof_Blog.png" alt="High-Waisted Mom Jeans">
+                <h3>Retro Jeans</h3>
+                <p>Description: Retro-inspired jeans for a vintage look.</p>
+                <p>Price: ₹2499.99</p>
+                <button onclick="buy('High-Waisted Mom Jeans', 2499.99)" class="buy-button">Buy Now</button>
+            </div>
+            <!-- More jeans products can be added similarly -->
+
+        </section>
+    </main>
+
+    <footer id="contact">
+        <h3>Contact Us</h3>
+        <p>Email: genzetrends@gmail.com</p>
+        <p>Phone: 7400342902</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,185 @@
+/* Basic styles */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* Use a modern sans-serif font */
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    /* Light background color */
+    color: #333;
+    /* Dark text color */
+}
+
+header {
+    background-color: #fafafa;
+    /* Light gray background color */
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Add a subtle shadow */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    /* Use a different font for headings */
+    font-weight: bold;
+    /* Bold font weight */
+    color: #333;
+    /* Dark text color */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    /* Increase the font weight */
+    transition: color 0.3s ease;
+    /* Smooth transition for color change */
+}
+
+nav ul li a:hover {
+    color: #555;
+    /* Darker color on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+#home,
+#products {
+    text-align: center;
+}
+
+.product {
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    /* Lighter border color */
+    border-radius: 10px;
+    /* Rounded corners */
+    background-color: #fff;
+    /* White background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Add shadow */
+    transition: transform 0.3s ease;
+    /* Smooth transition on hover */
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    /* Move up slightly on hover */
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+    /* Rounded top corners */
+}
+
+.product h3 {
+    margin-top: 10px;
+    /* Add space between image and title */
+    font-size: 1.5em;
+    /* Larger font size */
+}
+
+.product p {
+    margin-bottom: 10px;
+    /* Reduce space between paragraphs */
+    font-size: 1.2em;
+    /* Larger font size */
+}
+
+.buy-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    /* Use a different font */
+    font-weight: bold;
+    /* Bold font weight */
+    background-color: #ffd700;
+    /* Yellow background color */
+    color: #333;
+    /* Dark text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* Smooth transition */
+}
+
+.buy-button:hover {
+    background-color: #ffcc00;
+    /* Darker yellow on hover */
+}
+
+footer {
+    background-color: #fafafa;
+    /* Light gray background color */
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.popup-content h2 {
+    margin-top: 0;
+}
+
+.popup-content p {
+    margin-bottom: 15px;
+}
+
+.popup-content button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.popup-content button:last-child {
+    margin-right: 0;
+}
